@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <style>
+        .span{
+            border: 2px solid black;
+            text-align: center;
+            margin: 100px;
+            width: auto;
+            background-color: red;
+            padding: 20px ;
+            height: 490px;
+        }
+    </style>
+</head>
+<body style="background-color: orange;">
+    <form class="span">
+        <h1>Application Form</h1>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" maxlength="6" placeholder="Name" required><br><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" age="age" max="90" placeholder="Age" required><br><br>
+        <label for="designation">designation:</label>
+        <select id="designation" >
+        <option value="Doctor">Doctor</option>
+        <option value="Engineer">Engineer</option>
+        <option value="Teacher">Teacher</option>
+        </select><br><br>
+        <label for="email">Email:</label>
+        <input type="email" required placeholder="xyz@example.com"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" required><br><br>
+        <label for="date">Date Of Birth</label>
+        <input type="date" required><br><br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
