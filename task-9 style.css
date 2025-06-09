@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.box {
+    width: 90%;
+    height: 300px;
+    margin: 20px auto;
+    border: 3px solid #333;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 10px;
+    opacity: 0.95;
+}
+
+.box1 {
+    background-image: url("images/bg1.jpg");
+}
+.box2 {
+    background-image: url("images/bg2.jpg");
+}
+.box3 {
+    background-image: url("images/bg3.jpg");
+}
+
+.content {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.box:hover .content::after {
+    content: " ✨";
+    font-size: 20px;
+    display: inline-block;
+}
+
+h2::first-letter {
+    font-size: 200%;
+    color: yellow;
+}
+
+a:active {
+    background-color: red;
+}
+
+.content > a {
+    font-weight: bold;
+}
+
+input::placeholder {
+    color: gray;
+    font-style: italic;
+}
