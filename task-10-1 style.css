@@ -1,0 +1,20 @@
+.cla{
+    object-fit: cover;
+    object-position: 500% 0;
+    padding-right:350px;
+    width: 900px;
+    height: 665px;
+}
+.head{
+    text-align: center;
+    font-weight: lighter;
+}
+.right{
+    background-color: blue;
+    text-align: right;
+    width: 900px;
+    height: 650px;
+}
+.con{
+    display: flex;
+}
